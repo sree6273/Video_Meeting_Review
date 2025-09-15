@@ -1,0 +1,31 @@
+# Core web framework
+fastapi
+uvicorn[standard]
+
+# File uploads
+python-multipart
+
+# Environment variable management
+python-dotenv
+
+# Transcription (Whisper.cpp bindings via whispercpp Python)
+whispercpp @ git+https://github.com/aarnphm/whispercpp.git
+
+# Ollama API client (we’ll use HTTP requests to talk to Ollama locally)
+httpx
+
+# ChromaDB (Vector store)
+chromadb
+
+# Optional - Sentiment Analysis
+textblob
+nltk
+
+# Optional - Topic Modeling
+scikit-learn
+
+# For Pydantic and typing
+pydantic
+
+# SQLite ORM (if needed)
+sqlalchemy
